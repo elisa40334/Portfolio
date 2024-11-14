@@ -14,10 +14,16 @@
 	box-sizing: border-box;
 }
 
-.dark-mode {
+/* .dark-mode {
 	background-color: #000;
 	color: white;
   }
+
+.dark-mode .colorlib-nav-toggle i,
+.dark-mode .colorlib-nav-toggle i::before,
+.dark-mode .colorlib-nav-toggle i::after{
+	background-color: white;
+} */
 
 /* =======================================================
 *
@@ -674,6 +680,7 @@ body.offcanvas .colorlib-nav-toggle {
 
 .about-desc h1 {
 	margin-bottom: 20px;
+	margin-top: 30px;
 	font-size: 38px;
 	font-weight: 600;
 	font-family: "Montserrat", Georgia, serif;
@@ -1870,7 +1877,7 @@ body.offcanvas .colorlib-nav-toggle {
 	*display: inline;
 	width: 30px;
 	height: 2px;
-	background-color: white;
+	background-color: #365475;
 	font: bold 14px/0.4 Helvetica;
 	text-transform: uppercase;
 	text-indent: -55px;
@@ -1883,12 +1890,13 @@ body.offcanvas .colorlib-nav-toggle {
 	content: "";
 	width: 30px;
 	height: 2px;
-	background-color: white;
+	background-color: #365475;
 	position: absolute;
 	left: 0;
 	-webkit-transition: 0.2s;
 	-o-transition: 0.2s;
 	transition: 0.2s;
+	
 }
 .colorlib-nav-toggle.dark i {
 	position: relative;
