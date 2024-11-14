@@ -680,10 +680,7 @@ body.offcanvas .colorlib-nav-toggle {
 
 .about-desc h1 {
 	margin-bottom: 20px;
-<<<<<<< HEAD
 	margin-top: 30px;
-=======
->>>>>>> 557281c (first)
 	font-size: 38px;
 	font-weight: 600;
 	font-family: "Montserrat", Georgia, serif;
@@ -1880,11 +1877,7 @@ body.offcanvas .colorlib-nav-toggle {
 	*display: inline;
 	width: 30px;
 	height: 2px;
-<<<<<<< HEAD
 	background-color: #365475;
-=======
-	background-color: white;
->>>>>>> 557281c (first)
 	font: bold 14px/0.4 Helvetica;
 	text-transform: uppercase;
 	text-indent: -55px;
@@ -1897,20 +1890,13 @@ body.offcanvas .colorlib-nav-toggle {
 	content: "";
 	width: 30px;
 	height: 2px;
-<<<<<<< HEAD
 	background-color: #365475;
-=======
-	background-color: white;
->>>>>>> 557281c (first)
 	position: absolute;
 	left: 0;
 	-webkit-transition: 0.2s;
 	-o-transition: 0.2s;
 	transition: 0.2s;
-<<<<<<< HEAD
 	
-=======
->>>>>>> 557281c (first)
 }
 .colorlib-nav-toggle.dark i {
 	position: relative;
